@@ -1,9 +1,29 @@
 .App {
-  text-align: center;
-  background-color: rgb(217, 217, 217);
+  margin: 32px;
 }
 
+.DiaryEditor {
+  background-color: rgb(218, 220, 226);
+  width: 500px;
+  text-align: center;
+  border: 1px solid #D3D3D3;
+  padding: 24px;
+  border-radius: 32px;
+}
 
-h1 {
-  color: red;
+.DiaryEditor input, textarea, select {
+  width: 400px;
+  margin-bottom: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.DiaryEditor button {
+  width: 400px;
+  margin-bottom: 32px;
+  padding: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+
 }
