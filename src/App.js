@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import DiaryEditor from "./DiaryEditor";
 import DiaryList from "./DiaryList";
 import "./App.css";
-import DiaryEditor from "./DiaryEditor";
 
 const dummyList = [
   {
