@@ -5,9 +5,7 @@ const DiaryItem = ({ author, content, created_date, emotion, id }) => {
         작성자: {author} | 감정점수: {emotion}
       </span>
       <br />
-      <span className="date">
-        {new Date(created_date).toLocaleDateString()}
-      </span>
+      <span className="date">{new Date(created_date).toLocaleString()}</span>
       <br />
       <span className="content">{content}</span>
     </div>
