@@ -1,9 +1,71 @@
 .App {
-  text-align: center;
-  background-color: rgb(217, 217, 217);
+  margin: 32px;
 }
 
+.DiaryEditor , .DiaryList {
+  background-color: rgb(218, 220, 226);
+  width: 500px;
+  text-align: center;
+  border: 1px solid #D3D3D3;
+  padding: 24px;
+  border-radius: 32px;
+}
 
-h1 {
-  color: red;
+.DiaryEditor input, textarea, select {
+  width: 400px;
+  margin-bottom: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.DiaryEditor button {
+  width: 400px;
+  margin-bottom: 32px;
+  padding: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+
+}
+
+/* List */
+.DiaryList {
+  border: 1px solid #D3D3D3;
+  margin-top: 24px;
+  padding: 24px;
+}
+
+.DiaryList h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* Item */
+.DiaryItem {
+  background-color: #FFF;
+  padding: 8px;
+  border-radius: 16px;
+  box-sizing: border-box;
+}
+
+.DiaryItem:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.DiaryItem .info {
+  width: calc(100% - 32px);
+  border-bottom: 1px solid #D3D3D3;
+  padding: 8px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.DiaryItem .date {
+  color: #828282;
+  font-size: 18px;
+}
+
+.DiaryItem .content {
+  font-weight: bold;
+  font-size: 20px;
 }
