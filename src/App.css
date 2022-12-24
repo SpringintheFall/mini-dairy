@@ -53,11 +53,12 @@
 }
 
 .DiaryItem .info {
-  width: calc(100% - 32px);
+  display: flex;
+  width: 100%;
   border-bottom: 1px solid #D3D3D3;
   padding: 8px;
   box-sizing: border-box;
-  display: inline-block;
+  justify-content: space-between;
 }
 
 .DiaryItem .date {
