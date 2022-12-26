@@ -28,7 +28,7 @@
 
 ### React Lifecycle 과 API
 
-- [ ]
+- [x] Hooks Demo Test (useEffect)
 
 ### React App 프로처럼 성능 최적화하기 with 도구사용
 
